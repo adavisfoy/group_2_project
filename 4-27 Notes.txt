@@ -1,0 +1,35 @@
+1. Pick a topic --> tornados
+
+2. Find Preliminary Datasets --> 1950-2019actualtornadoes.csv
+
+    Questions we can answer with our dataset:
+        What magnitude does the most damage?
+
+        What magnitude is the most common?
+
+        What state has the most tornados?
+
+        Weather patterns related to tornados
+            regional tornado alley vs dixie alley
+            over time
+
+        What month do the most tornados occur in?
+
+        Width of tornado vs magnitude
+
+
+3. Rudimentary EDA on Datasets
+
+4. Mockup of Database
+
+5. Mockup of the machine learning model
+    predicting loss based on magnitude --> machine learning https://www.kaggle.com/code/gcdatkin/tornado-magnitude-prediction
+
+
+----------------------------------------------------------------------------------------------------------------------
+Other Notes:
+Rubric says you should have two different tables & join them together
+
+
+
+
