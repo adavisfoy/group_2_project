@@ -1,6 +1,6 @@
 1. Pick a topic --> tornados
 
-2. Find Preliminary Datasets --> 1950-2019actualtornadoes.csv
+2. Find Preliminary Datasets --> See Raw Data folder on Github
 
     Questions we can answer with our dataset:
         What magnitude does the most damage?
@@ -20,10 +20,17 @@
 
 3. Rudimentary EDA on Datasets
 
+    We looked through the columns of data and decided that there are some columns that we can delete because they wont help our analysis
+
+
 4. Mockup of Database
 
+    Add the tornado, hail, wind csv to SQL as tables in a Database
+    Create another table with columns from the above tables to make our dataset for analysis
+    Export that table as a csv for use in our analysis in python! 
+
 5. Mockup of the machine learning model
-    predicting loss based on magnitude --> machine learning https://www.kaggle.com/code/gcdatkin/tornado-magnitude-prediction
+    predicting loss based on tornado magnitude and hail diameter(?)--> machine learning https://www.kaggle.com/code/gcdatkin/tornado-magnitude-prediction
 
 
 ----------------------------------------------------------------------------------------------------------------------
