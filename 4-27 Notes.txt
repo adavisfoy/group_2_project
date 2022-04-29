@@ -1,4 +1,4 @@
-1. Pick a topic --> tornados
+1. Pick a topic --> tornadoes
 
 2. Find Preliminary Datasets --> See Raw Data folder on Github
 
