@@ -10,7 +10,15 @@
    - Description of their source of data.  
       We have downloaded data file from 
    - Questions they hope to answer with the data
-      Still figuring this part out.
+      What magnitude does the most damage?
+
+      What magnitude is the most common?
+
+      What state has the most tornados?
+
+      What month do the most tornados occur in?
+
+      Width of tornado vs magnitude
 
 ### Github
   - Main Branch with a ReadMe file 
@@ -18,6 +26,10 @@
   - At least one branch for each team member w/ at least four commits from the duration of the first segment
 
 ### Machine Learning Model
+Multiple Linear Regression
+   - Find relationships between tornado ef scale ranking to number of injuries, fatalities, loss metrics
+   - Can the model predict the ef scale based on these metrics? or vise versa?
+   
   - Takes in data in from the provisional database
   - Outputs label(s) for input data
 
