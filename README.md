@@ -2,10 +2,15 @@
 
 ## Week 1 
 ### Presentation
-   - Selected topic
-   - Reason why they selected their topic
-   - Description of their source of data
+   - Selected topic.
+       Tornados
+   - Reason why they selected their topic.  
+      Tornados are facinating and devasting at the same time.  
+      We will look into the data to see where it takes us.
+   - Description of their source of data.  
+      We have downloaded data file from 
    - Questions they hope to answer with the data
+      Still figuring this part out.
 
 ### Github
   - Main Branch with a ReadMe file 
