@@ -1,6 +1,6 @@
 # Group 2 Final Project
 
-## Week 1 
+## Segment 1 
 
 ### Presentation
    - **Selected topic:**
