@@ -44,7 +44,8 @@
    - Find relationships between tornado EF scale ranking to number of injuries, fatalities, loss metrics
    - Can the model predict the ef scale based on these metrics? or vise versa?
 
-### Database Notes:
+### Database:
+  - We intend to set up a provisional database in either PGAdmin or Amazon AWS RDS. 
   - 4.29.22 - added surrogate key column ('surr_key') to each csv so we have a unique primary key for each table that we load into database.
   - [Wikipedia - Surrogate Key](https://en.wikipedia.org/wiki/Surrogate_key) 
   - Sample data that mimics the expected final database structure or schema
