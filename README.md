@@ -1,24 +1,30 @@
 # Group 2 Final Project
 
 ## Week 1 
+
 ### Presentation
-   - Selected topic.
+   - **Selected topic.**
        Tornados
-   - Reason why they selected their topic.  
-      Tornados are facinating and devasting at the same time.  
-      We will look into the data to see where it takes us.
-   - Description of their source of data.  
+   - **Reason why we selected our topic.**  
+     - Tornados are fascinating and devasting at the same time. All members of our group are interested in this topic, especially given that we are currently experiencing spring severe weather. 
+     - Group members mostly reside in Tennesse, with one member currently living in the Midwest who recently relocated from Memphis, TN.
+     - As we began to research this topic, an **EF-3** tornado struck Andover, KS, the evening of April 29, 2022. Wind speeds reached at least 136 miles per hour with experts estimating damage to several hundred homes and businesses, including Andover's local YMCA that sustained a direct hit.     
+     [https://weather.com/storms/severe/news/2022-04-29-tornado-andover-kansas-nebraska-oklahoma](https://weather.com/storms/severe/news/2022-04-29-tornado-andover-kansas-nebraska-oklahoma)
+     - We intend to further evaluate our data and see where it takes us.
+     
+   - Description of our data sources:   
       We have downloaded data file from 
-   - Questions they hope to answer with the data
-      What magnitude does the most damage?
+      
+   - Questions we hope to answer with the data: 
+     - Which magnitude tornado causes the most damage?
 
-      What magnitude is the most common?
+     - Which tornado magnitude is the most common?
 
-      What state has the most tornados?
+     - Which state has the most tornados?
 
-      What month do the most tornados occur in?
+     - In which month do the most tornados occur? 
 
-      Width of tornado vs magnitude
+     - Evaluation of tornado width versus tornado magnitude.
 
 ### Github
   - Main Branch with a ReadMe file 
@@ -27,7 +33,7 @@
 
 ### Machine Learning Model
 Multiple Linear Regression
-   - Find relationships between tornado ef scale ranking to number of injuries, fatalities, loss metrics
+   - Find relationships between tornado EF scale ranking to number of injuries, fatalities, loss metrics
    - Can the model predict the ef scale based on these metrics? or vise versa?
    
   - Takes in data in from the provisional database
