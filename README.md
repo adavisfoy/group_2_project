@@ -28,7 +28,7 @@
 
      - Evaluation of tornado width versus tornado magnitude.
      
-     - Evaluation of how 'Tornado Alley' is changing over time.
+     - Evaluation of how 'Tornado Alley' may be changing over time.
 
 ### GitHub
   - Main Branch with a ReadMe file 
