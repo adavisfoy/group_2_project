@@ -32,7 +32,9 @@
 
 ### GitHub
   - The Main Branch of our 'group_2_project' repository includes a ReadMe file 
-  - Description of the communication protocols
+  - Description of the communication protocols for this project: 
+    - We downloaded our data via csv files; therefore, we will not need to handle any data transporting needs at this time. We do not need to utilize an API. 
+    - Our communication protocols may change as we progress. 
   - At least one branch for each team member w/ at least four commits from the duration of the first segment
 
 ### Machine Learning Model
