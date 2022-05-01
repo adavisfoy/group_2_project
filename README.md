@@ -31,14 +31,14 @@
      - Evaluation of how 'Tornado Alley' may be changing over time.
 
 ### GitHub
-  - Main Branch with a ReadMe file 
+  - The Main Branch of our 'group_2_project' repository includes a ReadMe file 
   - Description of the communication protocols
   - At least one branch for each team member w/ at least four commits from the duration of the first segment
 
 ### Machine Learning Model
 **General ML Info:**
   - The selected ML model will take in data in from the provisional database (additional details below). 
-  - Outputs label(s) for input data
+  - The ML model outputs label(s) for the input data.
 
 **Multiple Linear Regression**
    - Find relationships between tornado EF scale ranking to number of injuries, fatalities, loss metrics
