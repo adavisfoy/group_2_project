@@ -41,8 +41,9 @@
   - The ML model outputs label(s) for the input data.
 
 **Multiple Linear Regression**
-   - Find relationships between tornado EF scale ranking to number of injuries, fatalities, loss metrics
-   - Can the model predict the ef scale based on these metrics? or vise versa?
+   - We intend to utilize a Multiple Linear Regression ML model to predict the following: 
+     - The number of injuries, fatalities, and/or loss metrics ($) based on a tornado's magnitude (EF scale rating)
+     - Can the model predict the EF scale based on these metrics? or vice versa?
 
 ### Database:
   - We intend to set up a provisional database in either PGAdmin or Amazon AWS RDS. 
