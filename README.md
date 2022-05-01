@@ -6,8 +6,8 @@
    - **Selected topic:**
        Tornados
    - **Reason why we selected our topic:**  
-     - Tornados are fascinating and devasting at the same time. All members of our group are interested in this topic, especially given that we are currently experiencing spring severe weather. 
-     - Group members mostly reside in Tennesse, with one member currently living in the Midwest who recently relocated from Memphis, TN.
+     - Tornados are fascinating and devasting at the same time. All members of our group are interested in this topic, especially given that we are currently experiencing spring severe weather season. 
+     - Group members mostly reside in Tennesse, with one member currently living in the Midwest (who recently relocated from Memphis, TN).
      - As we began to research this topic, an **EF-3** tornado struck Andover, KS, the evening of April 29, 2022. Wind speeds reached at least 136 miles per hour with experts estimating damage to several hundred homes and businesses, including Andover's local YMCA, which sustained a direct hit. Despite the high level of destruction, only minor injuries were reported.      
      [https://weather.com/storms/severe/news/2022-04-29-tornado-andover-kansas-nebraska-oklahoma](https://weather.com/storms/severe/news/2022-04-29-tornado-andover-kansas-nebraska-oklahoma)
      - We intend to further evaluate our data and see where it takes us.
@@ -15,6 +15,7 @@
    - **Description of the data sources:**   
      - Our group utilized the SPC National Severe Weather Database Browser to download severe weather data including tornadoes (since 1950), as well as hail and damaging winds data (since 1955). 
        - [https://www.spc.noaa.gov/climo/online/sp3/plot.php](https://www.spc.noaa.gov/climo/online/sp3/plot.php)
+       - The data is derived from the National Weather Service's Storm Data publication, which is reviewed and processed by the National Climatic Data Center and the Storm Prediction Center
       
    - **Questions we hope to answer with the data:** 
      - Which magnitude tornado causes the most damage?
@@ -27,7 +28,7 @@
 
      - Evaluation of tornado width versus tornado magnitude.
      
-     - Evaluation of how 'Tornado Alley' is changing over time
+     - Evaluation of how 'Tornado Alley' is changing over time.
 
 ### GitHub
   - Main Branch with a ReadMe file 
