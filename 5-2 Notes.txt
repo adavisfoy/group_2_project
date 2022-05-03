@@ -2,10 +2,4 @@ ML -->
 
 use inj, loss, fatalities, to predict EF scale rating
 
-find a relationship between tornado length on ground, width, and location to predict the loss
-
-
-Goals:
-
-ML model
-
+use tornado length on ground, width, and location to predict the loss?
