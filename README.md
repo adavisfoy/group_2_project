@@ -48,10 +48,7 @@
      - Find relationships between tornado EF scale ranking to number of injuries, fatalities, loss metrics
      - Determine if the model can predict the tornado's EF score based on these metrics? or vice versa?
      - Focus on metrics such as tornado location, width & length to predict loss
-   - A Multiple Linear Regression Supervised Learning model is appropriate due to the following: 
-     - Supervised learning algorithms make predictions based on a set of examples, or historical data. In this case, we are utilizing historical severe weather data.
-     - Our data set is labeled (includes responses) and much of the data is numeric. 
-     - A Multiple Linear regression model lends itself well to modeling relationships between a continuous, dependent variable 'y,' and two or more predictors 'X.'
+     - Utilize loss (financial) & crop loss to predict EF rating
    - Once we become more familiar with the data, we may determine that more sophisticated ML algorithms are needed to strengthen our understanding of the data and/or improve our results. 
 
 ### Database:
