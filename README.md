@@ -43,10 +43,11 @@
   - The selected ML model will take in data in from the provisional database (additional details below). 
   - The ML model outputs label(s) for the input data.
 
-**Multiple Linear Regression**
-   - We intend to utilize a Multiple Linear Regression ML model to accomplish the following: 
+**TBD**
+   - We intend to TBD ML model to accomplish the following: 
      - Find relationships between tornado EF scale ranking to number of injuries, fatalities, loss metrics
      - Determine if the model can predict the tornado's EF score based on these metrics? or vice versa?
+     - Focus on metrics such as tornado location, width & length to predict loss
    - A Multiple Linear Regression Supervised Learning model is appropriate due to the following: 
      - Supervised learning algorithms make predictions based on a set of examples, or historical data. In this case, we are utilizing historical severe weather data.
      - Our data set is labeled (includes responses) and much of the data is numeric. 
