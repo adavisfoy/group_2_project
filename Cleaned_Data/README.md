@@ -8,9 +8,9 @@
 | Timestamp   	| datetime  	| Date & Time                 	|
 | State       	| string    	| State Tornado Started in    	|
 | Start_Lat   	| float     	| Starting Latitude           	|
-| Start_Lon   	| float     	| Starting longitude          	|
-| End_Lat     	| float     	| Ending latitude             	|
-| End_Lon     	| float     	| Ending longitude            	|
+| Start_Lon   	| float     	| Starting Longitude          	|
+| End_Lat     	| float     	| Ending Latitude             	|
+| End_Lon     	| float     	| Ending Longitude            	|
 | EF          	| integer   	| EF Scale Rating (0-5)       	|
 | Injuries    	| intger    	| No of injuries occured      	|
 | Fatalities  	| integer   	| No of deaths occured        	|
