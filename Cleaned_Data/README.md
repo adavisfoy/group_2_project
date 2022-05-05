@@ -8,7 +8,7 @@
 | Timestamp    	| datetime  	| Date & Time                 	|
 | State        	| string    	| State Tornado Started in    	|
 | State_Fips   	| integer   	| State Fips Number           	|
-| Counnty_Fips 	| integer   	| County Fips Number          	|
+| County_Fips 	| integer   	| County Fips Number          	|
 | Start_Lat    	| float     	| Starting Latitude           	|
 | Start_Lon    	| float     	| Starting longitude          	|
 | End_Lat      	| float     	| Ending latitude             	|
