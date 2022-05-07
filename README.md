@@ -33,6 +33,8 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
      - Evaluation of tornado width versus tornado magnitude.
      
      - Evaluation of how 'Tornado Alley' may be changing over time.
+     
+     - Can we predict the number of injuries and fatalaties resulting from a tornado if we know the magnitude (EF rating) and population of the county? 
 
 ### GitHub
   - The Main Branch of our 'group_2_project' repository includes a ReadMe file 
@@ -55,10 +57,14 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
    - Once we become more familiar with the data, we may determine that more sophisticated ML algorithms are needed to strengthen our understanding of the data and/or improve our results. 
 
 ### Database:
-  - Our SQL database is being remote hosted on Amazon's AWS Relational Database Service (RDS) free tier. 
-  - We can then connect our local pgAdmin database to our Amazon RDS instance. 
-  - Links: 
+  - Our SQL database is being remote hosted on **Amazon's AWS Relational Database Service (RDS)** free tier. 
+  - We can then connect our local **pgAdmin** database to our Amazon RDS instance. 
+  - **Entity Relationship Diagram:**
+    - ERD created with **QuickDBD Web App**: [https://www.quickdatabasediagrams.com/](https://www.quickdatabasediagrams.com/)
+    - ![Database/QuickDBD-tornadoes_db.png](Database/QuickDBD-tornadoes_db.png)
+  - **Amazon RDS Database Link:** 
     - [tornado-db.cwzrmrb6gdt4.us-east-1.rds.amazonaws.com](tornado-db.cwzrmrb6gdt4.us-east-1.rds.amazonaws.com)
+  - **Amazon S3 Data Set Links:** 
     - [https://group-2-project-tornadoes.s3.amazonaws.com/2008-2020_tornadoes_EF_cleaned_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/2008-2020_tornadoes_EF_cleaned_db.csv)
     - [https://group-2-project-tornadoes.s3.amazonaws.com/Population_cleaned_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/Population_cleaned_db.csv)
-  - Our machine learning models will then be connected via Google Colaboratory is connected to the provisional database
+  - Our machine learning models will then be connected via **Google Colaboratory**.
