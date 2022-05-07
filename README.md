@@ -1,13 +1,11 @@
 # Group 2 Final Project
 
-Link to Google Slides
-https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing
-
-## Segment 1 
+## Segment 2
 
 ### Presentation
    - **Selected topic:**
        Tornados
+       
    - **Reason why we selected our topic:**  
      - Tornados are fascinating and devasting at the same time. All members of our group are interested in this topic, especially given that we are currently experiencing spring severe weather season. 
      - Group members mostly reside in Tennesse, with one member currently living in the Midwest (who recently relocated from Memphis, TN).
@@ -37,7 +35,10 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
      - Can we predict the number of injuries and fatalaties resulting from a tornado if we know the magnitude (EF rating) and population of the county? 
 
 ### GitHub
-  - The Main Branch of our 'group_2_project' repository includes a ReadMe file 
+  - All code in our main branch is production-ready. 
+  - The main branch includes the following: 
+    - Exploratory Analysis Code including data cleaning and preprocessing files.
+    - Code for multiple machine learning models. 
   - Description of the communication protocols for this project: 
     - We downloaded our data via csv files; therefore, we will not need to handle any data transporting needs at this time. We do not need to utilize an API. 
     - Our communication protocols may change as we progress. 
@@ -59,6 +60,7 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
 ### Database:
   - Our SQL database is being remote hosted on **Amazon's AWS Relational Database Service (RDS)** free tier. 
   - We can then connect our local **pgAdmin** database to our Amazon RDS instance. 
+  - Our database include two tables: County & Tornadoes (see ERD)
   - **Entity Relationship Diagram:**
     - ERD created with **QuickDBD Web App**: [https://www.quickdatabasediagrams.com/](https://www.quickdatabasediagrams.com/)
     - ![Database/QuickDBD-tornadoes_db.png](Database/QuickDBD-tornadoes_db.png)
@@ -67,4 +69,11 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
   - **Amazon S3 Data Set Links:** 
     - [https://group-2-project-tornadoes.s3.amazonaws.com/2008-2020_tornadoes_EF_cleaned_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/2008-2020_tornadoes_EF_cleaned_db.csv)
     - [https://group-2-project-tornadoes.s3.amazonaws.com/Population_cleaned_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/Population_cleaned_db.csv)
-  - Our machine learning models will then be connected via **Google Colaboratory**.
+  - At least one of our machine learning models will be connected to our Amazon RDS database via **Google Colaboratory**.
+
+### Dashboard
+
+  - Google Slides Storyboard (In Progress) 
+    - Link: [https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing](https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing)
+  - Selected Dashboard Tool: Tableau
+  - Description of interactive element(s): TBD
