@@ -55,8 +55,10 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
    - Once we become more familiar with the data, we may determine that more sophisticated ML algorithms are needed to strengthen our understanding of the data and/or improve our results. 
 
 ### Database:
-  - We intend to set up a provisional database in either PGAdmin or Amazon AWS RDS. 
-  - 4.29.22 - added surrogate key column ('surr_key') to each csv so we have a unique primary key for each table that we load into database.
-  - [Wikipedia - Surrogate Key](https://en.wikipedia.org/wiki/Surrogate_key) 
-  - Sample data that mimics the expected final database structure or schema
-  - Draft machine learning module is connected to the provisional database
+  - Our SQL database is being remote hosted on Amazon's AWS Relational Database Service (RDS) free tier. 
+  - We can then connect our local pgAdmin database to our Amazon RDS instance. 
+  - Links: 
+    - [tornado-db.cwzrmrb6gdt4.us-east-1.rds.amazonaws.com](tornado-db.cwzrmrb6gdt4.us-east-1.rds.amazonaws.com)
+    - [https://group-2-project-tornadoes.s3.amazonaws.com/2008-2020_tornadoes_EF_cleaned_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/2008-2020_tornadoes_EF_cleaned_db.csv)
+    - [https://group-2-project-tornadoes.s3.amazonaws.com/Population_cleaned_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/Population_cleaned_db.csv)
+  - Our machine learning models will then be connected via Google Colaboratory is connected to the provisional database
