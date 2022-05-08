@@ -71,6 +71,7 @@
   - **Amazon S3 Data Set Links:** 
     - [https://group-2-project-tornadoes.s3.amazonaws.com/2008-2020_tornadoes_EF_cleaned_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/2008-2020_tornadoes_EF_cleaned_db.csv)
     - [https://group-2-project-tornadoes.s3.amazonaws.com/Population_cleaned_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/Population_cleaned_db.csv)
+    - [https://group-2-project-tornadoes.s3.amazonaws.com/joined_torn_pop_data_2010-2019_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/joined_torn_pop_data_2010-2019_db.csv)
   - Via postgreSQL, we completed a left join of population data into our tornadoes data set. 
     - We encountered a challenge with the join because the tornado population data included a year column, whereas the County (Population) data didn't include a year column but a "Pop" column (integer data for population) with the year concatenated into the column name.
     - To account for this, I created a new table within postgreSQL by duplicating the original tornado table and adding a cnty_pop (county population) column to house the joined tornado & population data.
