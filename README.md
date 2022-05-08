@@ -61,7 +61,7 @@
 
 ### Database:
   - Our SQL database is being remote hosted on **Amazon's AWS Relational Database Service (RDS)** free tier. 
-  - We can then connect our local **pgAdmin** database to our Amazon RDS instance. 
+  - Our local PostgreSQL/pgAdmin database is connected to our Amazon RDS instance. 
   - Our database include two tables: County & Tornadoes (see ERD)
   - **Entity Relationship Diagram:**
     - ERD created with **QuickDBD Web App**: [https://www.quickdatabasediagrams.com/](https://www.quickdatabasediagrams.com/)
