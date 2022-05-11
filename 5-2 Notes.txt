@@ -1,0 +1,5 @@
+ML --> 
+
+use inj, loss, fatalities, to predict EF scale rating
+
+use tornado length on ground, width, and location to predict the loss?

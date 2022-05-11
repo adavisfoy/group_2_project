@@ -1,5 +1,6 @@
 # Group 2 Final Project
 
+<<<<<<< HEAD
 Link to Google Slides
 https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing
 
@@ -9,6 +10,14 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
 ### Presentation
    - **Selected topic:**
        Tornados
+=======
+## Segment 2
+
+### Presentation
+   - **Selected topic:**
+       Tornados
+       
+>>>>>>> main
    - **Reason why we selected our topic:**  
      - Tornados are fascinating and devasting at the same time. All members of our group are interested in this topic, especially given that we are currently experiencing spring severe weather season. 
      - Group members mostly reside in Tennesse, with one member currently living in the Midwest (who recently relocated from Memphis, TN).
@@ -34,15 +43,27 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
      - Evaluation of tornado width versus tornado magnitude.
      
      - Evaluation of how 'Tornado Alley' may be changing over time.
+<<<<<<< HEAD
 
 ### GitHub
   - The Main Branch of our 'group_2_project' repository includes a ReadMe file 
+=======
+     
+     - Can we predict the number of injuries and fatalaties resulting from a tornado if we know the magnitude (EF rating) and population of the county? 
+
+### GitHub
+  - All code in our main branch is production-ready. 
+  - The main branch includes the following: 
+    - Exploratory Analysis Code including data cleaning and preprocessing files.
+    - Code for multiple machine learning models. 
+>>>>>>> main
   - Description of the communication protocols for this project: 
     - We downloaded our data via csv files; therefore, we will not need to handle any data transporting needs at this time. We do not need to utilize an API. 
     - Our communication protocols may change as we progress. 
   - At least one branch for each team member w/ at least four commits from the duration of the first segment
 
 ### Machine Learning Model
+<<<<<<< HEAD
 **General ML Info:**
   - The selected ML model will take in data in from the provisional database (additional details below). 
   - The ML model outputs label(s) for the input data.
@@ -61,4 +82,56 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
   - [Wikipedia - Surrogate Key](https://en.wikipedia.org/wiki/Surrogate_key) 
   - Sample data that mimics the expected final database structure or schema
   - Draft machine learning module is connected to the provisional database
+>>>>>>> main
+=======
+  - The selected ML model will take in data in from the provisional database (additional details below). 
+  - The ML model outputs label(s) for the input data.
+  - **Our group's selected Machine Learning models:** 
+    - **Logistic Regression**
+    - **RandomForest**
+      - To predict tornado magnitude (EF score)
+      - To predict fatalaties
+    - **Neural Network**
+   - We intend to utilize our ML model(s) to accomplish the following: 
+     - Find relationships between tornado EF scale ranking to number of injuries, fatalities, loss metrics
+     - Determine if the model can predict the tornado's EF score based on these metrics? or vice versa?
+     - Focus on metrics such as tornado location, width & length to predict loss
+     - Utilize loss (financial) & crop loss to predict EF rating 
+
+### Database:
+  - Our SQL database is being remote hosted on **Amazon's AWS Relational Database Service (RDS)** free tier. 
+  - Our local PostgreSQL/pgAdmin database is connected to our Amazon RDS instance. 
+  - Our database include two tables: County & Tornadoes (see ERD)
+  - **Entity Relationship Diagram:**
+    - ERD created with **QuickDBD Web App**: [https://www.quickdatabasediagrams.com/](https://www.quickdatabasediagrams.com/)
+    - ![Database/QuickDBD-tornadoes_db.png](Database/QuickDBD-tornadoes_db.png)
+  - **Amazon RDS Database Link:** 
+    - [tornado-db.cwzrmrb6gdt4.us-east-1.rds.amazonaws.com](tornado-db.cwzrmrb6gdt4.us-east-1.rds.amazonaws.com)
+  - **Amazon S3 Data Set Links:** 
+    - [https://group-2-project-tornadoes.s3.amazonaws.com/2008-2020_tornadoes_EF_cleaned_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/2008-2020_tornadoes_EF_cleaned_db.csv)
+    - [https://group-2-project-tornadoes.s3.amazonaws.com/Population_cleaned_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/Population_cleaned_db.csv)
+    - [https://group-2-project-tornadoes.s3.amazonaws.com/joined_torn_pop_data_2010-2019_db.csv](https://group-2-project-tornadoes.s3.amazonaws.com/joined_torn_pop_data_2010-2019_db.csv)
+  - Via postgreSQL, we completed a left join of population data into our tornadoes data set. 
+    - We encountered a challenge with the join because the tornado population data included a year column, whereas the County (Population) data didn't include a year column but a "Pop" column (integer data for population) with the year concatenated into the column name.
+    - To account for this, I created a new table within postgreSQL by duplicating the original tornado table and adding a cnty_pop (county population) column to house the joined tornado & population data.
+    - The join statement utilized was not a traditional join statement, but an implied join statement using PostgreSQL's UPDATE join syntax to update the values in the new table's cnty_pop column with data from the County table. 
+    - [https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-update-join/#:~:text=To%20join%20to%20another%20table,every%20row%20of%20table%20t2%20.](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-update-join/#:~:text=To%20join%20to%20another%20table,every%20row%20of%20table%20t2%20.)
+    - The information was joined one year at a time into the new table to ensure that the appropriate columns were being updated. 
+    - UPDATE join code example: 
+```
+--Join pop data into torn_pop 2010
+UPDATE torn_pop
+SET cnty_pop = county.pop_2010
+FROM county
+WHERE county.county_id = torn_pop.county_id
+AND torn_pop.year = 2010;
+```
+  - At least one of our machine learning models will be connected to our Amazon RDS database via **Google Colaboratory**.
+
+### Dashboard
+
+  - Google Slides Storyboard (In Progress) 
+    - Link: [https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing](https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing)
+  - Selected Dashboard Tool: Tableau
+  - Description of interactive element(s): TBD
 >>>>>>> main
