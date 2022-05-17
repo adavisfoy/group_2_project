@@ -22,8 +22,7 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
        - The data is derived from the National Weather Service's Storm Data publication, which is reviewed and processed by the National Climatic Data Center and the Storm Prediction Center
       
    - **Questions we hope to answer with the data:** 
-     - Which magnitude tornado causes the most damage?
-
+   
      - Which tornado magnitude is the most common?
 
      - Which state has the most tornados?
@@ -31,50 +30,18 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
      - In which month do the most tornados occur? 
 
      - Evaluation of tornado width versus tornado magnitude.
+
+     - Can we predict the number of fatalaties resulting from a tornado if we know the magnitude (EF rating) and population of the county? 
      
      - Evaluation of how 'Tornado Alley' may be changing over time.
-<<<<<<< HEAD
 
-### GitHub
-  - The Main Branch of our 'group_2_project' repository includes a ReadMe file 
-=======
-     
-     - Can we predict the number of injuries and fatalaties resulting from a tornado if we know the magnitude (EF rating) and population of the county? 
 
-### GitHub
-  - All code in our main branch is production-ready. 
-  - The main branch includes the following: 
-    - Exploratory Analysis Code including data cleaning and preprocessing files.
-    - Code for multiple machine learning models. 
->>>>>>> main
-  - Description of the communication protocols for this project: 
-    - We downloaded our data via csv files; therefore, we will not need to handle any data transporting needs at this time. We do not need to utilize an API. 
-    - Our communication protocols may change as we progress. 
-  - At least one branch for each team member w/ at least four commits from the duration of the first segment
+## Machine Learning Model
 
-### Machine Learning Model
-<<<<<<< HEAD
 **General ML Info:**
   - The selected ML model will take in data in from the provisional database (additional details below). 
   - The ML model outputs label(s) for the input data.
-
-**TBD**
-   - We intend to TBD ML model to accomplish the following: 
-     - Find relationships between tornado EF scale ranking to number of injuries, fatalities, loss metrics
-     - Determine if the model can predict the tornado's EF score based on these metrics? or vice versa?
-     - Focus on metrics such as tornado location, width & length to predict loss
-     - Utilize loss (financial) & crop loss to predict EF rating
-   - Once we become more familiar with the data, we may determine that more sophisticated ML algorithms are needed to strengthen our understanding of the data and/or improve our results. 
-
-### Database:
-  - We intend to set up a provisional database in either PGAdmin or Amazon AWS RDS. 
-  - 4.29.22 - added surrogate key column ('surr_key') to each csv so we have a unique primary key for each table that we load into database.
-  - [Wikipedia - Surrogate Key](https://en.wikipedia.org/wiki/Surrogate_key) 
-  - Sample data that mimics the expected final database structure or schema
-  - Draft machine learning module is connected to the provisional database
->>>>>>> main
-=======
-  - The selected ML model will take in data in from the provisional database (additional details below). 
+  - - The selected ML model will take in data in from the provisional database (additional details below). 
   - The ML model outputs label(s) for the input data.
   - **Our group's selected Machine Learning models:** 
     - **Logistic Regression**
@@ -88,7 +55,15 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
      - Focus on metrics such as tornado location, width & length to predict loss
      - Utilize loss (financial) & crop loss to predict EF rating 
 
-### Database:
+**TBD**
+   - We intend to TBD ML model to accomplish the following: 
+     - Find relationships between tornado EF scale ranking to number of injuries, fatalities, loss metrics
+     - Determine if the model can predict the tornado's EF score based on these metrics? or vice versa?
+     - Focus on metrics such as tornado location, width & length to predict loss
+     - Utilize loss (financial) & crop loss to predict EF rating
+   - Once we become more familiar with the data, we may determine that more sophisticated ML algorithms are needed to strengthen our understanding of the data and/or improve our results. 
+
+## Database:
   - Our SQL database is being remote hosted on **Amazon's AWS Relational Database Service (RDS)** free tier. 
   - Our local PostgreSQL/pgAdmin database is connected to our Amazon RDS instance. 
   - Our database include two tables: County & Tornadoes (see ERD)
