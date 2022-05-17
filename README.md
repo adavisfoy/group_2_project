@@ -39,14 +39,17 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
 ## Machine Learning Model
 
 1. Determine tornado's EF score based on these metrics: number of injuries, number of fatalities, loss ($), crop loss($), length (mi), and width (yds)
-   - **RandomForest**
+   - **Random Forest**
       We used Random Forest to determine which features were most significant in predicting EF rating 
 ![Feature Import](https://github.com/adavisfoy/group_2_project/blob/20402cb68e114dadb272f1f0eaa03d847215ad3f/ML/Final%20ML%20Models/Images/RF_FeatureImportance.png)
 
-      From this plot we determined that the Loss, width, and length were the top contributers to EF rating. 
-    
+      From this plot we determined that the Loss, Width, and Length were the top contributers to EF rating. 
       
+      Visulalizing relationships between EF rating and Loss
+   ![EF_Loss](https://github.com/adavisfoy/group_2_project/blob/20402cb68e114dadb272f1f0eaa03d847215ad3f/ML/Final%20ML%20Models/Images/EF_Loss.png)
    - **Logistic Regression**
+
+
 2. Determine number of fatalities based on these metrics: EF rating, number of injuries, length (mi), width(yds), and county population
    - **Neural Network**  
 
