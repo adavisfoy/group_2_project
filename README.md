@@ -5,19 +5,9 @@ Link to Google Slides
 https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing
 
 
-## Segment 1 
-
-### Presentation
+## Overview of Project
    - **Selected topic:**
-       Tornados
-=======
-## Segment 2
-
-### Presentation
-   - **Selected topic:**
-       Tornados
-       
->>>>>>> main
+       Tornadoes
    - **Reason why we selected our topic:**  
      - Tornados are fascinating and devasting at the same time. All members of our group are interested in this topic, especially given that we are currently experiencing spring severe weather season. 
      - Group members mostly reside in Tennesse, with one member currently living in the Midwest (who recently relocated from Memphis, TN).
