@@ -48,13 +48,17 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
    
 
    - **Logistic Regression**                                                                     
-   Visulalizing relationships between EF rating, Loss, Width, and Length
+   Visualizing relationships between EF rating, Loss, Width, and Length
    
   EF vs Loss          |  EF vs Width          | EF vs Length
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/adavisfoy/group_2_project/blob/20402cb68e114dadb272f1f0eaa03d847215ad3f/ML/Final%20ML%20Models/Images/EF_Loss.png) |  ![](https://github.com/adavisfoy/group_2_project/blob/20402cb68e114dadb272f1f0eaa03d847215ad3f/ML/Final%20ML%20Models/Images/EF_Width.png) |  ![](https://github.com/adavisfoy/group_2_project/blob/20402cb68e114dadb272f1f0eaa03d847215ad3f/ML/Final%20ML%20Models/Images/EF_Length.png)  
 
 ![](https://github.com/adavisfoy/group_2_project/blob/3318ef4e601c313fa21271148c17238af183b965/ML/Final%20ML%20Models/Images/LogReg_accuracy.png)
+
+Training Accuracy          |  Testing Accuracy         
+:-------------------------:|:-------------------------:
+0.6436482631313979         | 0.6388119808708784
 
 2. Determine number of fatalities based on these metrics: EF rating, number of injuries, length (mi), width(yds), and county population
    - **Neural Network**  
