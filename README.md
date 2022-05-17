@@ -62,6 +62,7 @@ Training Accuracy          |  Testing Accuracy
 
 2. Determine number of fatalities based on these metrics: EF rating, number of injuries, length (mi), width(yds), and county population
    - **Neural Network**  
+![](https://github.com/adavisfoy/group_2_project/blob/c6fb0a799a0bda436a2c5512b566d1d6e5f55538/ML/Final%20ML%20Models/Images/NN_model.png)
 
 
 
