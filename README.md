@@ -42,6 +42,9 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
    - **RandomForest**
       We used Random Forest to determine which features were most significant in predicting EF rating 
 ![Feature Import](https://github.com/adavisfoy/group_2_project/blob/e8d4551f32fcf152d01fc76864fb4eb387c75886/ML/Final%20ML%20Models/Images/RF_FeatureImportance.png)
+
+      From this plot we determined that the Loss, width, and length were the top contributers to EF rating. 
+    
       
    - **Logistic Regression**
 2. Determine number of fatalities based on these metrics: EF rating, number of injuries, length (mi), width(yds), and county population
