@@ -64,6 +64,11 @@ Training Accuracy          |  Testing Accuracy
    - **Neural Network**  
 ![](https://github.com/adavisfoy/group_2_project/blob/c6fb0a799a0bda436a2c5512b566d1d6e5f55538/ML/Final%20ML%20Models/Images/NN_model.png)
 
+ Model Accuracy         |   Model Accuracy  
+:-------------------------:|:-------------------------:
+![](https://github.com/adavisfoy/group_2_project/blob/20402cb68e114dadb272f1f0eaa03d847215ad3f/ML/Final%20ML%20Models/Images/NN_accuracy.png) |  ![](https://github.com/adavisfoy/group_2_project/blob/20402cb68e114dadb272f1f0eaa03d847215ad3f/ML/Final%20ML%20Models/Images/NN_loss.png) | 
+
+
 
 
 ## Database:
