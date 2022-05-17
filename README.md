@@ -38,30 +38,16 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
 
 ## Machine Learning Model
 
-**General ML Info:**
-  - The selected ML model will take in data in from the provisional database (additional details below). 
-  - The ML model outputs label(s) for the input data.
-  - - The selected ML model will take in data in from the provisional database (additional details below). 
-  - The ML model outputs label(s) for the input data.
-  - **Our group's selected Machine Learning models:** 
-    - **Logistic Regression**
-    - **RandomForest**
-      - To predict tornado magnitude (EF score)
-      - To predict fatalaties
-    - **Neural Network**
-   - We intend to utilize our ML model(s) to accomplish the following: 
-     - Find relationships between tornado EF scale ranking to number of injuries, fatalities, loss metrics
-     - Determine if the model can predict the tornado's EF score based on these metrics? or vice versa?
-     - Focus on metrics such as tornado location, width & length to predict loss
-     - Utilize loss (financial) & crop loss to predict EF rating 
+1. Determine tornado's EF score based on these metrics: number of injuries, number of fatalities, loss ($), crop loss($), length (mi), and width (yds)
+   - **RandomForest**
+      We used Random Forest to determine which features were most significant in predicting EF rating 
+![Feature Import](https://github.com/adavisfoy/group_2_project/blob/e8d4551f32fcf152d01fc76864fb4eb387c75886/ML/Final%20ML%20Models/Images/RF_FeatureImportance.png)
+      
+   - **Logistic Regression**
+2. Determine number of fatalities based on these metrics: EF rating, number of injuries, length (mi), width(yds), and county population
+   - **Neural Network**  
 
-**TBD**
-   - We intend to TBD ML model to accomplish the following: 
-     - Find relationships between tornado EF scale ranking to number of injuries, fatalities, loss metrics
-     - Determine if the model can predict the tornado's EF score based on these metrics? or vice versa?
-     - Focus on metrics such as tornado location, width & length to predict loss
-     - Utilize loss (financial) & crop loss to predict EF rating
-   - Once we become more familiar with the data, we may determine that more sophisticated ML algorithms are needed to strengthen our understanding of the data and/or improve our results. 
+
 
 ## Database:
   - Our SQL database is being remote hosted on **Amazon's AWS Relational Database Service (RDS)** free tier. 
