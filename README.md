@@ -47,6 +47,10 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
       
       Visulalizing relationships between EF rating and Loss
    ![EF_Loss](https://github.com/adavisfoy/group_2_project/blob/20402cb68e114dadb272f1f0eaa03d847215ad3f/ML/Final%20ML%20Models/Images/EF_Loss.png)
+   
+  EF vs Loss          |  EF vs Width
+:-------------------------:|:-------------------------:
+![](https://...EF_Loss.png)  |  ![](https://...EF_Width.png)
    - **Logistic Regression**
 
 
