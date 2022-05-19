@@ -25,15 +25,12 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
    
      - Which tornado magnitude is the most common?
 
-     - Which state has the most tornados?
+     - Which state has the most tornadoes?
 
-     - In which month do the most tornados occur? 
-
-     - Evaluation of tornado width versus tornado magnitude.
+     - In which month do the most tornadoes occur? 
 
      - Can we predict the number of fatalaties resulting from a tornado if we know the magnitude (EF rating) and population of the county? 
      
-     - Evaluation of how 'Tornado Alley' may be changing over time.
 
 ## Data Cleaning
 
