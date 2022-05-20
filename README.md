@@ -1,6 +1,5 @@
 # Group 2 Final Project
 
-<<<<<<< HEAD
 Link to Google Slides
 https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing
 
@@ -103,8 +102,8 @@ AND torn_pop.year = 2010;
 ```
   - At least one of our machine learning models will be connected to our Amazon RDS database via **Google Colaboratory**.
 
-### Dashboard
+### Tableau Story
 
-  - Google Slides Storyboard (In Progress) 
-    - Link: [https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing](https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing)
-  - Selected Dashboard Tool: [Tableau](https://public.tableau.com/shared/4MXXXP5Q2?:display_count=n&:origin=viz_share_link)
+  - [Tableau Story](https://public.tableau.com/shared/4MXXXP5Q2?:display_count=n&:origin=viz_share_link)
+  - Our tableau story features multiple types of visualizations.
+  - Interactivty is inlcuded in pages 3 and 4 where the viewer can select the year of tornado data to view on the map
