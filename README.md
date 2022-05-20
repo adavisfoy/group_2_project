@@ -107,5 +107,4 @@ AND torn_pop.year = 2010;
 
   - Google Slides Storyboard (In Progress) 
     - Link: [https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing](https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsMXpk/edit?usp=sharing)
-  - Selected Dashboard Tool: Tableau
-  - Description of interactive element(s): TBD
+  - Selected Dashboard Tool: [Tableau](https://public.tableau.com/shared/4MXXXP5Q2?:display_count=n&:origin=viz_share_link)
