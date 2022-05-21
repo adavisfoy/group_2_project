@@ -15,7 +15,7 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
      [https://www.weather.gov/oun/efscale](https://www.weather.gov/oun/efscale)
      - We intend to further evaluate our data and see where it takes us.
      
-   - **Description of the data sources:**   
+   - **Description of our Data Sources:**   
      - **Tornado Data**
      - Our group utilized the SPC National Severe Weather Database Browser to download severe weather data including tornadoes (since 1950), as well as hail and damaging winds data (since 1955). 
        - [https://www.spc.noaa.gov/climo/online/sp3/plot.php](https://www.spc.noaa.gov/climo/online/sp3/plot.php)
