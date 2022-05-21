@@ -120,7 +120,7 @@ FROM county
 WHERE county.county_id = torn_pop.county_id
 AND torn_pop.year = 2010;
 ```
-  - At least one of our machine learning models will be connected to our Amazon RDS database via **Google Colaboratory**.
+  - Our **Neural Network** machine learning model was connected to our remote-hosted **Amazon RDS database** utilizing a **PySpark connection string** within **Google Colaboratory** (cloud-based notebook/Python IDE).
 
 ### Tableau Story
 
