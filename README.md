@@ -24,7 +24,7 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
      - Our group utilized **County Population Data for 2010-2019** from the **United States Census Bureau:**
        - [https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html)
       
-   - **Questions we hope to answer with the data:** 
+   - **Questions we hope to answer through data analysis:** 
    
      - Which tornado magnitude is the most common?
 
@@ -36,7 +36,22 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
 
      - Can we determine if the location of "tornado alley" is changing over time? Or are there multiple "tornado alleys"? 
      
-## Data Cleaning
+## Data Cleaning Process
+
+- **Tornado Data:** 
+  - Filter out bad data (ie EF ratings not 0-5)
+  - Filter for lower 48 US states (exclude PR, VI, HI, AK)
+  - Loss & Crop Loss filter for data after 2016
+  - Filter 2008-2020 (F scale/EF scale change)
+
+- **Population Data:** 
+  - Keep these columns:
+    - State FIPS
+    - County FIPS
+    - State Name
+    - County Name
+    - Population Estimate by Year 
+
 
 ## Machine Learning Models
 
@@ -111,4 +126,4 @@ AND torn_pop.year = 2010;
 
   - [Tableau Story](https://public.tableau.com/shared/4MXXXP5Q2?:display_count=n&:origin=viz_share_link)
   - Our tableau story features multiple types of visualizations.
-  - Interactivty is inlcuded in pages 3 and 4 where the viewer can select the year of tornado data to view on the map
+  - Interactivity is included in pages 3 and 4 where the viewer can select the year of tornado data to view on the map.
