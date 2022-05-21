@@ -16,9 +16,13 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
      - We intend to further evaluate our data and see where it takes us.
      
    - **Description of the data sources:**   
+     - **Tornado Data**
      - Our group utilized the SPC National Severe Weather Database Browser to download severe weather data including tornadoes (since 1950), as well as hail and damaging winds data (since 1955). 
        - [https://www.spc.noaa.gov/climo/online/sp3/plot.php](https://www.spc.noaa.gov/climo/online/sp3/plot.php)
        - The data is derived from the National Weather Service's Storm Data publication, which is reviewed and processed by the National Climatic Data Center and the Storm Prediction Center
+     - **Population Data**
+     - Our group utilized **County Population Data for 2010-2019** from the **United States Census Bureau**
+       - [https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html)
       
    - **Questions we hope to answer with the data:** 
    
@@ -29,8 +33,9 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
      - In which month do the most tornadoes occur? 
 
      - Can we predict the number of fatalaties resulting from a tornado if we know the magnitude (EF rating) and population of the county? 
-     
 
+     - Can we determine if the location of "tornado alley" is changing over time? Or are there multiple "tornado alleys"? 
+     
 ## Data Cleaning
 
 ## Machine Learning Models
