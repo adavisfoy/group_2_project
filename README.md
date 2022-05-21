@@ -21,7 +21,7 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
        - [https://www.spc.noaa.gov/climo/online/sp3/plot.php](https://www.spc.noaa.gov/climo/online/sp3/plot.php)
        - The data is derived from the National Weather Service's Storm Data publication, which is reviewed and processed by the National Climatic Data Center and the Storm Prediction Center
      - **Population Data**
-     - Our group utilized **County Population Data for 2010-2019** from the **United States Census Bureau**
+     - Our group utilized **County Population Data for 2010-2019** from the **United States Census Bureau:**
        - [https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html)
       
    - **Questions we hope to answer with the data:** 
