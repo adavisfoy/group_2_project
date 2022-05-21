@@ -39,13 +39,13 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
 ## Data Cleaning Process
 
 - **Tornado Data:** 
-  - Filter out bad data (ie EF ratings not 0-5)
-  - Filter for lower 48 US states (exclude PR, VI, HI, AK)
-  - Loss & Crop Loss filter for data after 2016
-  - Filter 2008-2020 (F scale/EF scale change)
+  - Filtered out bad data (ie EF ratings not 0-5)
+  - Filtered for lower 48 US states (exclude PR, VI, HI, AK)
+  - Loss & Crop Loss: Filtered for data after 2016
+  - Filtered for 2008-2020 (F scale/EF scale change)
 
 - **Population Data:** 
-  - Keep these columns:
+  - Kept these columns:
     - State FIPS
     - County FIPS
     - State Name
