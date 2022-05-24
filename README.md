@@ -35,7 +35,34 @@ https://docs.google.com/presentation/d/1zSgH7H8bt0tgr5ZWaSebuRSi6RUVaBKLAAeG2BsM
      - Can we predict the number of fatalaties resulting from a tornado if we know the magnitude (EF rating) and population of the county? 
 
      - Can we determine if the location of "tornado alley" is changing over time? Or are there multiple "tornado alleys"? 
-     
+  
+## Summary of Data Analysis Technologies & Tools: 
+- **Applications:**
+  - GitHub
+  - Google Colaboratory (Python web-based IDE)
+  - Jupyter Notebook
+  - Microsoft Excel
+  - VS Code
+  - Tableau
+- **Coding Languages:**
+  - Python 
+    - Pandas DataFrames
+  - SQL
+  - Spark / PySpark
+- **Database Tools:** 
+  - Quick DBD - Entity Relationship Diagram (ERD)
+    - [https://www.quickdatabasediagrams.com/](https://www.quickdatabasediagrams.com/)
+  - PostgreSQL (pgAdmin)
+    - Local DB connected to Amazon RDS
+  - Amazon AWS Relational Database Service (RDS)
+    - Remote-hosting of database
+  - Amazon AWS S3
+    - Cloud-based data storage
+- **Machine Learning Algorithms:** 
+  - Random Forest Network
+  - Logistic Regression
+  - Neural Network
+  
 ## Data Cleaning Process
 
 - **Tornado Data:** 
